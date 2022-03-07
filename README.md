@@ -16,7 +16,7 @@
     > `$ cd /path/to/project/root`  
     `$ python3 -m venv ./y42_env`  
     `$ source ./y42_env/bin/activate`  
-    `$ pip3 install -r requirements.txt`  
+    `$ pip install -r requirements.txt`  
 
 
 ## Further Steps
