@@ -34,3 +34,14 @@ Create an implementation of `BaseDestination` of `./destination/destination_inte
 > Full implementation example is `FileStorage` class located in `./destination/file_storage_destination.py`.
 
 > Mock implementation is `FTPDestination` class located in `./destination/ftp_destination.py`.
+
+
+----
+
+## Running Tests
+
+Assuming the running directory is project root, run below scripts for testing. 
+
+> `$ pytest data_store/test/test_data_store.py`  
+`$ pytest data_store/test/test_fs_dest.py`  
+`$ pytest data_store/test/test_json_format.py `
